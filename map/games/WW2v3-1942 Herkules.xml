@@ -1744,7 +1744,7 @@
     </attachment>
     <!-- Carrier -->
     <attachment name="unitAttachment" attachTo="carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="carrierCapacity" value="1"/>
+      <option name="carrierCapacity" value="2"/>
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
       <option name="attack" value="1"/>
@@ -2418,12 +2418,12 @@
       <option name="canalName" value="Suez Canal"/>
       <option name="landTerritories" value="Egypt:Trans-Jordan"/>
     </attachment>
-    <attachment name="canalAttachmentCentral America" attachTo="19 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-      <option name="canalName" value="Central America Canal"/>
+    <attachment name="canalAttachmentPanama" attachTo="19 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Panama Canal"/>
       <option name="landTerritories" value="Central America"/>
     </attachment>
-    <attachment name="canalAttachmentCentral America" attachTo="20 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-      <option name="canalName" value="Central America Canal"/>
+    <attachment name="canalAttachmentPanama" attachTo="20 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Panama Canal"/>
       <option name="landTerritories" value="Central America"/>
     </attachment>
 	<attachment name="canalAttachmentGibraltar" attachTo="12 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
@@ -2547,8 +2547,6 @@
 	<attachment name="territoryEffectAttachment" attachTo="Mountain Pass" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
 	  <option name="unitsNotAllowed" value="artillery:aaGun:armour"/>
 	  <option name="movementCostModifier" value="infantry" count="-1"/>
-	  <option name="movementCostModifier" value="fighter" count="2"/>
-	  <option name="movementCostModifier" value="strategic_bomber" count="4"/>
 	</attachment>
 	<attachment name="territoryEffectAttachment" attachTo="Convoy Zone" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
 	  <option name="unitsNotAllowed" value="$AllUnits$"/>

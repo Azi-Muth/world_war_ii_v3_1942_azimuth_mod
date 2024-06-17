@@ -2,4 +2,3 @@ map_name: world_war_ii_v3_1942_azimuth_mod
 games:
 - {game_name: 'Azimuth 1942-4 Herkules', file_name: WW2v3-1942 Herkules.xml}
 - {game_name: 'Azimuth 1942-5 Ironclad', file_name: WW2v3-1942 Ironclad.xml}
-- {game_name: 'Azimuth 1942-6 Fall Blau', file_name: WW2v3-1942 Fall Blau.xml}
